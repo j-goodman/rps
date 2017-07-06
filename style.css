@@ -1,0 +1,52 @@
+body {
+  align-items: center;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.active {
+  display: block;
+  height: auto;
+  width: 320px;
+}
+
+.inactive {
+  display: none;
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+}
+
+.computer, .commenter {
+  color: #fff;
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.commenter {
+  cursor: pointer;
+}
+
+.choices > li {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  font-family: monospace;
+  height: 70px;
+  line-height: 70px;
+  list-style: none;
+  text-align: center;
+  width: 120px;
+}
+
+.choices > li:hover {
+  background: #000;
+  color: #fff;
+}
