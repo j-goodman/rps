@@ -79,7 +79,7 @@ var play = function (choice) {
   ) {
     this.rockWins.className = 'active';
     this.commenter.innerText = "You have lost.";
-    this.computer.innerText = choices.scissors + " beats " + choices.rock + ".";
+    this.computer.innerText = choices.rock + " beats " + choices.scissors + ".";
     this.choices.className = 'inactive';
   }
   setTimeout(function () {
