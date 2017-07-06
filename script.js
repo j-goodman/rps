@@ -53,7 +53,7 @@ var play = function (choice) {
     choice === 'paper' &&
     reply === 'rock'
   ) {
-    this.rockWins.className = 'active';
+    this.paperWins.className = 'active';
     this.commenter.innerText = "You win.";
     this.computer.innerText = choices.paper + " beats " + choices.rock + ".";
     this.choices.className = 'inactive';
