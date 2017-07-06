@@ -55,7 +55,7 @@ var play = function (choice) {
   ) {
     this.rockWins.className = 'active';
     this.commenter.innerText = "You win.";
-    this.computer.innerText = choices.rock + " beats " + choices.paper + ".";
+    this.computer.innerText = choices.paper + " beats " + choices.rock + ".";
     this.choices.className = 'inactive';
   } else if (
     choice === 'rock' &&
